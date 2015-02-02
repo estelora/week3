@@ -1,0 +1,36 @@
+body {
+  background-color: #fcfcfc;
+  padding: 1em;
+}
+
+.heading-box {
+  border-bottom: .5em solid #59575a;
+  width: 80em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: 'Cookie', cursive;
+  text-align: center;
+  color: #4a9e33;
+  font-size: 72pt;
+  line-height: .2em;
+}
+
+.heading-box {
+  padding-top: 1em;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 24pt;
+  font-weight: lighter;
+  color: #337026;
+  letter-spacing: -.25px;
+  text-align: center;
+
+  /*text-transform: uppercase;*/
+
+}

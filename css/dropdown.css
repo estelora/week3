@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+
+}
+
+.menu-container {
+  position: relative;
+
+}
+
+.menu-action {
+  background: #777;
+  padding: 1em;
+  border: none;
+  color: white;
+  font-size: 1em;
+}
+
+.menu-content {
+  position: absolute;
+  top: 2em;
+
+  visibility: hidden;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid #777;
+  min-width: 10em;
+  opacity: 0;
+
+  transition: all 0.15s;
+}
+
+.menu-show .menu-content {
+  visibility: visible;
+  top: 3em;
+  opacity: 1;
+}
+
+.menu-item {
+  padding: 0.75em;
+}
+
+.menu-item + .menu-item {
+  border-top: 1px solid #777;
+}

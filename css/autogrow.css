@@ -1,0 +1,40 @@
+textarea {
+  resize: none;
+  outline: 0;
+  font-size: 1em;
+}
+
+.autogrow-textarea-container {
+  position: relative;
+  background: blue;
+}
+
+.autogrow-textarea-container div {
+  background: red;
+  min-height: 4em;
+  min-width: 10em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+
+  padding: 0.5em;
+}
+
+textarea.autogrow {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.autogrow-textarea-container div,
+textarea.autogrow {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  padding: 0.5em;
+  line-height: 1.4em;
+}
+
+.autogrow-textarea-container div {
+  padding-bo
